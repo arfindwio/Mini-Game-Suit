@@ -1,7 +1,7 @@
 class Start {
 	constructor(){
-		this.playerName = "Arfin"
-		this.botName = "Si ROBOT"
+		this.playerName = "Kamu"
+		this.botName = "ROBOT"
 		this.playerOption = 0;
 		this.botOption = 0;
 		this.winner = ""
@@ -41,7 +41,7 @@ class Start {
 		if(this.winner != "SERI") {
 			return this.winner + " MENANG!";
 		}else {
-			return "HASILNYA " + this.winner + ", JADI GK ADA YANG MENANG";
+			return "HASILNYA " + this.winner + ", JADI GAK ADA YANG MENANG";
 		}
 	}
 
